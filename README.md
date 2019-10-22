@@ -28,9 +28,10 @@ This framework is extendable , reusable and easy to use.
 API = https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false
 
 Acceptance Criteria:
-Name = "Carbon credits"
-CanRelist = true
-The Promotions element with Name = "Gallery" has a Description that contains the text "2x larger image"
+
+* Name = "Carbon credits"
+* CanRelist = true
+* The Promotions element with Name = "Gallery" has a Description that contains the text "2x larger image"
 
 ## Solution
 Developed Maven Rest API framework and validated the acceptance criteria.
@@ -38,17 +39,19 @@ Included advance reporting feature.
 
 ## Execution Process
 
-Pre-requisite.
+### Pre-requisite.
+
 import the git hub project into eclipse (local machine)
 Make sure all software should be installed as mention above and path setup
 
-Execution via eclipse
+### Execution via eclipse
+
 Select ApiDetail.xml file and do right click and go to run as -> TestNG Suite
 TestNG completion details displayed at console side
 Go to ExtentReport and open report.html file to browser
 
 
-Execution via Command line argument
+### Execution via Command line argument
 
 Launch run comman window (window+R) type cmd and press OK
 cd {project path} eg C:\Users\Deepak\git\TestProject\api 
