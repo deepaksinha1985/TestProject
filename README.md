@@ -2,29 +2,29 @@
 Created Maven Rest API Automation framework to automate the rest api and validate the responses accordingly.
 This framework is extendable , reusable and easy to use.
 
-##Concept Included
-Common api interaction methods
-Commonly used test utility methods and classes
-Externalised test configuration
-User Friendly report
+## Concept Included
+* Common api interaction methods
+* Commonly used test utility methods and classes
+* Externalised test configuration
+* User Friendly report
 
-###Tools
-maven
-testng
-Rest Assured
-extent report
-java
-github
-eclipse
+## Tools
+* maven
+* testng
+* Rest Assured
+* extent report
+* java
+* github
+* eclipse
 
-####Pre-requisite installation
-java
-Maven
-Path setup for java and Maven to Environment Variable
-Git hub signup
-eclipse
+## Pre-requisite installation
+* java
+* Maven
+* Path setup for java and Maven to Environment Variable
+* Git hub signup
+* eclipse
 
-#####Problem Statement
+## Problem Statement
 API = https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false
 
 Acceptance Criteria:
@@ -32,11 +32,11 @@ Name = "Carbon credits"
 CanRelist = true
 The Promotions element with Name = "Gallery" has a Description that contains the text "2x larger image"
 
-#######Solution
+## Solution
 Developed Maven Rest API framework and validated the acceptance criteria.
 Included advance reporting feature.
 
-########Execution Process
+## Execution Process
 
 Pre-requisite.
 import the git hub project into eclipse (local machine)
@@ -57,10 +57,10 @@ mvn clean test
 After execution go to C:\Users\Deepak\git\TestProject\api\ExtentReport folder and open report.html file to any browser.
 
 
-#########Things to do more 
-log4j implementation
-Pass parameters from xml file to testng 
-Add Generic method for all rest api methods
+## Things to do more 
+* log4j implementation
+* Pass parameters from xml file to testng 
+* Add Generic method for all rest api methods
 
 
 
